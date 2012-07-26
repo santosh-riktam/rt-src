@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent" android:orientation="vertical" android:id="@+id/MyProfTopLL">
+	<include layout="@layout/title_comp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/TitleComp"/>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:orientation="vertical" android:id="@+id/MyProfContainer" android:layout_height="fill_parent" android:paddingLeft="5dp" android:paddingRight="5dp">
+
+		<LinearLayout android:id="@+id/MyProfLinearLayout01"
+			android:layout_height="wrap_content" android:layout_width="fill_parent">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginRight="10dp"
+				android:text="@string/MyProfTab1" android:textColor="#ffffff"
+				android:textStyle="bold" android:id="@+id/MyProfTabTextView01" style="@style/tabsfont"></TextView>
+			<TextView android:layout_height="wrap_content" android:id="@+id/MyProfTabTextView02" android:text="@string/MyProfTab2" android:layout_width="wrap_content" android:textColor="@color/descN" style="@style/tabsfont"></TextView>
+		</LinearLayout>
+		<ViewFlipper android:id="@+id/MyProfViewFlipper01"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<include layout="@layout/my_prof_ach" android:layout_width="fill_parent"
+				android:id="@+id/MyProfMyProfAch" android:layout_height="fill_parent"></include>
+			<include layout="@layout/my_prof_form" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/MyProfMyProfForm"></include>
+		</ViewFlipper>
+	</LinearLayout>
+</LinearLayout>

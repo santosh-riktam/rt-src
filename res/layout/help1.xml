@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/HelpTopLL" android:orientation="vertical"
+	android:layout_height="fill_parent" android:layout_width="fill_parent">
+	<include layout="@layout/title_comp" android:id="@+id/TitleComp"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	<LinearLayout android:id="@+id/HelpContainerLL"
+		android:layout_width="fill_parent" android:orientation="vertical"
+		android:layout_height="fill_parent">
+
+		<LinearLayout android:id="@+id/LinearLayout01"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:paddingLeft="5dp">
+			<TextView android:id="@+id/HelpTabsTextView01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginRight="10dp" android:text="@string/HelpTabsTV1"
+				android:textColor="#ffffff" android:textStyle="bold"
+				android:onClick="tabClick" style="@style/tabsfont"></TextView>
+			<TextView android:id="@+id/HelpTabsTextView02"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="@string/HelpTabsTV2" android:onClick="tabClk"
+				android:textColor="@color/titleN" style="@style/tabsfont"></TextView>
+		</LinearLayout>
+
+
+		<WebView android:layout_height="fill_parent"
+			android:layout_width="fill_parent" android:layout_marginTop="10dp"
+			android:id="@+id/HelpWebView01" android:background="#000000"></WebView>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/RatedRowRelativeLayout01"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:paddingBottom="2dp" android:paddingTop="2dp" android:layout_height="wrap_content" android:layout_width="fill_parent">
+	<ImageView android:id="@+id/RatedRowImageView01"
+		android:padding="2dp" android:layout_marginRight="2dp" android:layout_alignParentLeft="true" android:background="@drawable/orange_border" android:layout_height="81dp" android:layout_width="81dp"></ImageView>
+	<ImageView android:id="@+id/RatedRowImageView02"
+		android:layout_toRightOf="@id/RatedRowImageView01" android:padding="2dp" android:background="@drawable/orange_border" android:layout_height="81dp" android:layout_width="81dp"></ImageView>
+	<TableLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tableLayout1" android:layout_toRightOf="@+id/RatedRowImageView02" android:layout_marginLeft="5dp">
+		<TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<TextView android:id="@+id/RatedRowTextView01" android:text="@string/RatedDetailsTV1" android:layout_height="wrap_content" android:layout_width="wrap_content"  android:textSize="12sp" android:textColor="@color/descN"></TextView>
+			<TextView android:id="@+id/RatedRowTextView02" android:maxLines="1" android:text="Nature" android:layout_height="wrap_content" android:layout_width="match_parent"  android:textSize="12sp" android:ellipsize="end" android:textColor="#ffffff"></TextView>
+		</TableRow>
+		<TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<TextView android:id="@+id/TextView01" android:text="@string/NewRateFormLabelPictureA" android:layout_height="wrap_content" android:textSize="12sp" android:textColor="@color/descN" android:layout_width="wrap_content"></TextView>
+			<TextView android:id="@+id/RatedRowTextView03" android:maxLines="1" android:text="Nature" android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingLeft="1dp" android:textSize="12sp" android:ellipsize="end" android:textColor="#ffffff"></TextView>
+		</TableRow>
+		<TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<TextView android:id="@+id/textView1" android:text="@string/NewRateFormLabelPictureB" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="12sp" android:textColor="@color/descN"></TextView>
+			<TextView android:id="@+id/textView2" android:maxLines="1" android:text="Nature" android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="12sp" android:textColor="#ffffff"></TextView>
+		</TableRow>
+		<TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<TextView android:id="@+id/RatedRowTextView04" android:text="@string/RatedDetailsTV3" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="12sp" android:textColor="@color/descN"></TextView>
+			<TextView android:id="@+id/RatedRowTextView05" android:text="24 Feb 2011" android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingLeft="1dp" android:textSize="12sp" android:textColor="#ffffff"></TextView>
+		</TableRow>
+	</TableLayout>
+
+	<com.riktamtech.android.ratethisstc.ui.components.RatingView
+		android:id="@+id/RatedRowView01" android:layout_height="wrap_content" android:layout_toRightOf="@+id/RatedRowImageView02"
+		android:layout_width="150dp" android:layout_marginLeft="5dp" android:layout_marginTop="2dp" android:layout_below="@id/tableLayout1"></com.riktamtech.android.ratethisstc.ui.components.RatingView>
+	<TextView android:id="@+id/TextView02" android:layout_height="wrap_content"
+		android:layout_below="@+id/RatedRowView01" android:layout_toRightOf="@+id/RatedRowImageView02"
+		android:layout_width="wrap_content" android:text="952 Rates"
+		android:textColor="#ffffff"
+		android:textSize="12sp" android:layout_marginLeft="58dp"></TextView>
+</RelativeLayout>

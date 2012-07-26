@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/RateitSCLinearLayout01"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:gravity="top|center_horizontal" android:paddingTop="10dp">
+	<ImageView android:id="@+id/RateitSCImageView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:background="@drawable/button_border" android:padding="3dp"></ImageView>
+	<TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Primary tag " android:layout_marginTop="15dp" android:layout_marginBottom="15dp" android:duplicateParentState="true" android:textColor="#ffffff"></TextView>
+	<ImageView android:id="@+id/RateitSCImageView03"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:background="@drawable/button_border" android:padding="3dp"></ImageView>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout android:id="@+id/FrameLayout01"
+	android:layout_height="fill_parent" android:layout_width="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+	<ScrollView android:id="@+id/ScrollView01"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:scrollbars="none" android:paddingTop="5dp">
+		<LinearLayout android:id="@+id/LinearLayout01"
+			android:orientation="vertical" android:gravity="center_horizontal" android:paddingRight="25dp" android:layout_width="match_parent" android:layout_height="match_parent">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center_horizontal"
+				style="@style/CodeFont" android:onClick="txtClk" android:background="@drawable/newrate_text"
+				android:id="@+id/MainMenuNewRateTV"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center_horizontal"
+				style="@style/CodeFont" android:onClick="txtClk" android:background="@drawable/rateit_text"
+				android:id="@+id/MainMenuRateItTV"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center_horizontal"
+				style="@style/CodeFont" android:onClick="txtClk" android:background="@drawable/myrates_text"
+				android:id="@+id/MainMenuMyRatesTV"></TextView>
+
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center_horizontal"
+				style="@style/CodeFont" android:onClick="txtClk" android:background="@drawable/rated_text"
+				android:id="@+id/MainMenuRatedTV"></TextView>
+
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center_horizontal"
+				style="@style/CodeFont" android:onClick="txtClk" android:background="@drawable/myprofile_text"
+				android:id="@+id/MainMenuMyProfileTV"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center_horizontal"
+				style="@style/CodeFont" android:onClick="txtClk" android:background="@drawable/settings_text"
+				android:id="@+id/MainMenuSettingsTV"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center_horizontal"
+				style="@style/CodeFont" android:onClick="txtClk" android:background="@drawable/help_text"
+				android:id="@+id/MainMenuHelpTV"></TextView>
+
+
+		</LinearLayout>
+	</ScrollView>
+	<!--
+
+
+		<LinearLayout android:id="@+id/LinearLayout02"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"><TextView
+		android:id="@+id/TextView01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" style="@style/TitleFont"
+		android:maxLines="1" android:text="Ratethis! "
+		android:layout_marginRight="-15dp"
+		android:layout_marginTop="-50dp"></TextView></LinearLayout>
+	-->
+
+
+</FrameLayout>

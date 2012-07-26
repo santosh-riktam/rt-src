@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/IMCFrameLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/button_border_big">
+	<ImageView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/IMCImageView03" android:paddingBottom="5dp" android:paddingTop="5dp"></ImageView>
+	<LinearLayout android:id="@+id/IMCLinearLayout01"
+		android:gravity="bottom|center_horizontal" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:paddingBottom="5dp"
+		android:background="#80000000">
+		<ImageView android:id="@+id/IMCImageView01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:src="@drawable/camera" android:layout_marginRight="7dp"></ImageView>
+		<ImageView android:id="@+id/IMCImageView02"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:src="@drawable/gallery" android:layout_marginLeft="7dp"></ImageView>
+	</LinearLayout>
+
+</FrameLayout>

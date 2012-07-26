@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical">
+	<include layout="@layout/title_comp" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/TitleComp" />
+
+	<RelativeLayout android:id="@+id/RelativeLayout01"
+		android:layout_width="wrap_content" android:paddingLeft="10dp"
+		android:paddingRight="10dp" android:layout_height="fill_parent"
+		android:paddingTop="10dp">
+		<TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="@color/descN"
+			android:text="@string/SignupFormUsernameTV"></TextView>
+		<EditText android:id="@+id/EditText01" android:layout_below="@id/TextView01"
+			android:layout_height="wrap_content" android:background="@color/tvBg"
+			android:textColor="#ffffff" android:layout_width="fill_parent"
+			android:inputType="textEmailAddress"></EditText>
+		<TextView android:id="@+id/TextView02" android:layout_below="@id/EditText01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/LoginTV2" android:textColor="@color/descN"
+			android:layout_marginTop="10dp"></TextView>
+		<EditText android:id="@+id/EditText02" android:layout_below="@id/TextView02"
+			android:layout_height="wrap_content" android:background="@color/tvBg"
+			android:textColor="#ffffff" android:layout_width="fill_parent"
+			android:layout_marginBottom="15dp" android:inputType="textPassword"
+			android:imeActionLabel="actionGo" android:maxLines="1" android:imeOptions="actionGo"></EditText>
+
+		<LinearLayout android:id="@+id/LinearLayout02"
+			android:layout_below="@id/EditText02" android:layout_height="wrap_content"
+			android:layout_width="fill_parent">
+			<ImageView android:id="@+id/ImageView01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/signin"></ImageView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/TextView055"
+				android:layout_weight="0.1"></TextView>
+			<TextView android:id="@+id/TextView03" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:paddingRight="10dp"
+				android:text="@string/LoginTV3"></TextView>
+
+		</LinearLayout>
+
+		<TextView android:id="@+id/TextView04" android:layout_below="@id/LinearLayout02"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginTop="40dp" android:text="@string/LoginTV4"
+			android:textColor="@color/descN"></TextView>
+		<ImageView android:id="@+id/ImageView02"
+			android:layout_below="@id/TextView04" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/signup"
+			android:layout_marginTop="5dp" android:clickable="true"></ImageView>
+	</RelativeLayout>
+</LinearLayout>

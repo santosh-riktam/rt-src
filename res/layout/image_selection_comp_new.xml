@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout android:id="@+id/IMCNFrameLayout01" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:layout_width="wrap_content"><ImageView android:id="@+id/IMCNImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:background="@drawable/button_border" android:padding="2dp"></ImageView>
+<LinearLayout android:id="@+id/IMCNLinearLayout01" android:layout_height="wrap_content" android:gravity="center" android:paddingBottom="10dp" android:layout_width="fill_parent" android:layout_gravity="bottom|center_horizontal"><ImageView android:id="@+id/IMCNImageView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camera" android:layout_marginRight="10dp"></ImageView>
+<ImageView android:id="@+id/IMCNImageView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gallery" android:layout_marginLeft="10dp"></ImageView>
+</LinearLayout>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout android:id="@+id/RelativeLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView android:text="TextView" android:id="@+id/textView1"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20sp"></TextView>
+	<EditText android:id="@+id/EditText01" android:layout_height="wrap_content"
+		android:layout_width="250dp" android:layout_below="@id/textView1"
+		android:maxLines="1"></EditText>
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/EditText01" android:id="@+id/linearLayout1" android:layout_alignLeft="@+id/EditText01" android:layout_alignRight="@+id/EditText01" android:gravity="right">
+		<Button android:layout_width="wrap_content" android:layout_marginLeft="10dp" android:layout_height="wrap_content" android:text="@string/INP_OK_BUTTON" android:id="@+id/Button01"></Button>
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" Cancel " android:id="@+id/Button02"></Button>
+	</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="WSRoot">http://107.20.20.166/</string>
+<string name="WSImages">http://s3.amazonaws.com/testRatethis/</string>
+<string name="FBAppId">156712591066280</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Main -->
+	<string name="ALRT_DIALOG_TITLE">Alert</string>
+	<string name="ALRT_NOT_CONNECTED">No Internet Connection Present.</string>
+	<string name="ALRT_NO_SERVER_ACCESS">Could connect to server</string>
+
+	<string name="ALRT_BUTTON_OK">Ok</string>
+
+	<!-- Login -->
+	<string name="ALRT_INVALID_LOGIN">Enter username</string>
+	<string name="ALRT_INVALID_PASSWORD">Password length should be atleast 6 characters
+	</string>
+	<string name="ALRT_INVALID_USERNAME">Invalid username</string>
+
+	<!-- Signup -->
+	<string name="ALRT_FILL_DETAILS">Enter all the details</string>
+	<string name="ALRT_PASSWORDS_MATCH">Passwords do not match</string>
+	<string name="ALRT_INVALID_EMAIL_ID">Invalid email id</string>
+	<string name="ALRT_INVALID_DATE">Invalid date of birth</string>
+	<string name="ALRT_REGISTRATION_SUCCESSFUL">Registration successful</string>
+
+
+	<!-- My profile -->
+	<string name="ALRT_UPDATE_SUCCESSFUL">Profile updated</string>
+
+	<string name="PRG_TITLE">Loading</string>
+	<string name="PRG_MESSAGE">Please wait..</string>
+	<string name="PRG_SAVEING">Saving...</string>
+	<string name="PRG_LOADING">Loading...</string>
+	<!-- main menu -->
+	<string name="ALRT_LOCATION_DISABLED">Could not get your current location
+	</string>
+
+	<!-- New rate -->
+	<string name="PRG_UPLOADING_TITLE">Uploading</string>
+	<string name="TST_FAILED_UPLOAD">Upload failed.</string>
+	<string name="ALRT_SAME_IMAGE">Select two different images</string>
+	<string name="ALRT_PRIMARY_TAG_REQ">Primary tag is required</string>
+	<string name="ALRT_SECONDARY_TAG_REQ">Custom tag is required</string>
+	<string name="ALRT_PROCEED">No Internet Connection Present. Proceed?</string>
+	<string name="YES">Yes</string>
+	<string name="NO">No</string>
+	<!-- Twitter -->
+	<string name="TST_TWT_INVALID_DETAILS">Invalid username or password</string>
+	<string name="TST_TWT_SUCCESS">Tweet posted</string>
+	<string name="TST_TWT_FAILED_UPLOAD">Tweet not posted</string>
+	<string name="FB_TW_MSG_CONTENT_RATES">%1$s\'s Rate has just finished rating. Check out
+		the
+		results!
+	</string>
+	<string name="FB_TW_MSG_CONTENT_RATED">
+		%1$s has Rated on a %2$s Rate. Check out the
+		results!
+	</string>
+
+	<string name="FB_TW_MSG_CONTENT_MY_PROF">%1$s social status is...</string>
+	<string name="APPSTORE_URL">http://cookiejarsolutions.blogspot.com</string>
+
+
+	<!-- FACEBOOK -->
+	<string name="TST_FB_SUCCESS">Message posted</string>
+	<string name="TST_FB_ERROR">Facebook error</string>
+
+	<!-- Rate it -->
+	<string name="ALRT_NO_MORE_RATES">No more Rates. Perhaps you should make one?
+		Sharing
+		is Caring.
+	</string>
+	<string name="ALRT_RATE_EXPRIRED">Rate can\'t be completed as it has been expired
+	</string>
+	<!-- zooming -->
+	<string name="TST_ZOOM_TAP">Double tap on the image to go back</string>
+
+	<!-- input dialog -->
+	<string name="INP_OK_BUTTON"> Ok </string>
+	<string name="INP_DONE_BUTTON"> Done </string>
+	<string name="INP_CANCEL_BUTTON"> Cancel </string>
+	<string name="INP_SKIP">Skip</string>
+	<string name="INP_CUST_TAG1">Please describe Picture A:</string>
+	<string name="INP_CUST_TAG2">Please describe Picture B:</string>
+	<string name="INP_EMAIL_ID">Enter your registered email address</string>
+
+	<string name="TXT_NOTHING_MYRATES">Nothing here yet. Hop on over to NewRate! to
+		begin
+		creating Rates and check back here later
+	</string>
+	<string name="TXT_NOTHING_RATED">Nothing here yet. Jump over to RateIt! to start
+		Rating and check back here later
+	</string>
+
+	<string name="ALRT_ATLEAST_ONE_TAG">Please select atleast one preference</string>
+</resources>

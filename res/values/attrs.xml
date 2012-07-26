@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="MyDropDown">
+		<attr name="dTitle" format="string" />
+	</declare-styleable>
+	<declare-styleable name="CustProgressBar">
+		<attr name="percent" format="integer"></attr>
+	</declare-styleable>
+	
+</resources>

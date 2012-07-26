@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/MyProfFormLinearLayout01"
+	xmlns:myattr="http://schemas.android.com/apk/res/com.riktamtech.android.ratethisstc"
+	android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_height="fill_parent">
+	<ScrollView android:id="@+id/MyProfFormScrollView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_weight="0.8" android:scrollbars="none">
+		<RelativeLayout android:id="@+id/MyProfFormRelativeLayout01"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:id="@+id/MyProfFormTextView01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/descN" android:text="@string/MyProfFormTV1"
+				android:layout_marginTop="5dp"></TextView>
+			<EditText android:id="@+id/MyProfFormEditText01"
+				android:layout_below="@id/MyProfFormTextView01"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:textColor="#ffffff" android:imeOptions="actionNext"
+				android:background="@color/tvBg" android:paddingLeft="2dp"></EditText>
+			<TextView android:id="@+id/MyProfFormTextView02"
+				android:layout_below="@id/MyProfFormEditText01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/descN" android:text="@string/MyProfFormTV2"
+				android:layout_marginTop="5dp"></TextView>
+			<EditText android:id="@+id/MyProfFormEditText02"
+				android:layout_below="@id/MyProfFormTextView02"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:textColor="#ffffff" android:imeOptions="actionNext"
+				android:background="@color/tvBg" android:paddingLeft="2dp"></EditText>
+			<TextView android:id="@+id/MyProfFormTextView03"
+				android:layout_below="@id/MyProfFormEditText02"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/descN" android:text="@string/MyProfFormTV3"
+				android:layout_marginTop="5dp"></TextView>
+			<TextView android:layout_height="wrap_content"
+				android:layout_below="@id/MyProfFormTextView03" android:id="@+id/MyProfFormTextView001"
+				android:textColor="#FFFFFF" android:background="@color/tvBg"
+				android:drawableRight="@drawable/down_arow" android:layout_width="142dp"
+				android:layout_marginTop="1dp" android:paddingBottom="2dp"
+				android:paddingLeft="8dp" android:paddingRight="2dp"
+				android:paddingTop="2dp"></TextView>
+			<TextView android:id="@+id/MyProfFormTextView04"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_below="@id/MyProfFormEditText02" android:textColor="@color/descN"
+				android:text="@string/MyProfFormTV4"
+				android:layout_alignParentRight="false" android:layout_marginTop="5dp"
+				android:layout_toRightOf="@id/MyProfFormTextView001" android:layout_marginLeft="20dp"></TextView>
+			<com.riktamtech.android.ratethisstc.ui.components.CustDropDown
+				android:id="@+id/MyProfFormTextView101" android:layout_below="@id/MyProfFormTextView04"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_alignParentRight="true" android:layout_toRightOf="@+id/MyProfFormTextView001"
+				android:layout_marginLeft="20dp"></com.riktamtech.android.ratethisstc.ui.components.CustDropDown>
+			<TextView android:id="@+id/MyProfFormTextView05"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_below="@id/MyProfFormTextView001" android:textColor="@color/descN"
+				android:text="@string/MyProfFormTV5" android:layout_marginTop="5dp"></TextView>
+
+			<com.riktamtech.android.ratethisstc.ui.components.CustDropDown
+				android:layout_height="wrap_content" android:background="@drawable/combo"
+				android:layout_below="@id/MyProfFormTextView05" android:id="@+id/MyProfFormTextView103"
+				android:layout_width="fill_parent"></com.riktamtech.android.ratethisstc.ui.components.CustDropDown>
+			<TextView android:id="@+id/MyProfFormTextView06"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/descN" android:text="@string/MyProfFormTV6"
+				android:layout_marginTop="5dp" android:layout_below="@id/MyProfFormTextView103"></TextView>
+			<EditText android:id="@+id/MyProfFormEditText04"
+				android:layout_below="@id/MyProfFormTextView06"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:textColor="#ffffff" android:background="@color/tvBg" 
+				android:paddingLeft="2dp" android:paddingTop="2dp" android:paddingBottom="2dp"></EditText>
+			<TextView android:id="@+id/MyProfFormTextView061"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/descN" android:layout_marginTop="5dp" android:layout_below="@id/MyProfFormEditText04" android:text="@string/SignupFormUsernameTV"></TextView>
+			<EditText android:id="@+id/MyProfFormEditText0411"
+				android:layout_below="@id/MyProfFormTextView061"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:textColor="#ffffff" android:background="@color/tvBg"
+				android:paddingLeft="2dp" android:paddingBottom="2dp" android:paddingTop="2dp"></EditText>
+			<TextView android:id="@+id/MyProfFormTextView07"
+				android:layout_below="@id/MyProfFormEditText0411"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/descN" android:text="@string/MyProfFormTV7"
+				android:layout_marginTop="5dp"></TextView>
+			<EditText android:id="@+id/MyProfFormEditText05"
+				android:layout_below="@id/MyProfFormTextView07"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:textColor="#ffffff" android:imeOptions="actionNext"
+				android:background="@color/tvBg" android:inputType="textPassword"
+				android:paddingLeft="2dp"></EditText>
+			<TextView android:id="@+id/MyProfFormTextView08"
+				android:layout_below="@id/MyProfFormEditText05"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/descN" android:text="@string/MyProfFormTV8"
+				android:layout_marginTop="5dp"></TextView>
+			<EditText android:id="@+id/MyProfFormEditText06"
+				android:layout_below="@id/MyProfFormTextView08"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:textColor="#ffffff" android:background="@color/tvBg"
+				android:inputType="textPassword" android:paddingLeft="2dp"
+				android:imeOptions="actionDone"></EditText>
+
+			<RelativeLayout android:id="@+id/MyProfFormRelativeLayout02"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:paddingTop="5dp" android:layout_weight="0"
+				android:layout_below="@+id/MyProfFormEditText06"
+				android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:paddingBottom="10dp">
+				<Button android:id="@+id/MyProfFormButton01"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:background="@drawable/save"></Button>
+				<Button android:id="@+id/MyProfFormButton02"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_alignParentRight="true" android:background="@drawable/signout"></Button>
+			</RelativeLayout>
+
+
+		</RelativeLayout>
+	</ScrollView>
+
+</LinearLayout>

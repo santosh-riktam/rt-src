@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/RatedTopLinearLayout01" android:orientation="vertical">
+	<include android:layout_height="wrap_content" android:id="@+id/TitleComp"
+		layout="@layout/title_comp" android:layout_width="fill_parent"></include>
+	<ListView android:id="@+id/RatedListView01"
+		android:cacheColorHint="#00000000" android:layout_height="fill_parent"
+		android:layout_width="wrap_content" style="@style/MainMenuListView" android:paddingLeft="1dp" android:paddingRight="2dp"></ListView>
+	<TextView android:layout_width="fill_parent" android:id="@+id/@android:id/empty" android:layout_gravity="center_vertical" android:gravity="center" android:layout_height="fill_parent"></TextView>
+</LinearLayout>

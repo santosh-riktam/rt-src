@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/FrameLayout01"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent" >
+	<LinearLayout android:id="@+id/RatedDetailsLinearLayout01"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+
+		android:orientation="vertical">
+		<include android:layout_height="wrap_content" android:id="@+id/TitleComp"
+			layout="@layout/title_comp" android:layout_width="fill_parent"></include>
+		<com.riktamtech.android.ratethisstc.ui.components.RatedDetailsGallery android:id="@+id/Gallery01" android:layout_width="fill_parent"
+			android:layout_height="fill_parent"></com.riktamtech.android.ratethisstc.ui.components.RatedDetailsGallery>
+	</LinearLayout>
+
+
+	<include layout="@layout/share_op" android:id="@+id/ShareOp"
+		android:layout_gravity="bottom" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></include>
+	<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/star" android:layout_gravity="right|center_vertical" android:id="@+id/starImageView" android:layout_marginBottom="100dp"></ImageView>
+	<TextView android:layout_gravity="bottom|center_horizontal" android:text="TextView" android:id="@+id/durationTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#ffffff" android:textSize="14sp" android:layout_marginBottom="5dp"></TextView>
+
+</FrameLayout>

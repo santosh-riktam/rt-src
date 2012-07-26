@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/FrameLayout01"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<ScrollView android:id="@+id/ScrollView01"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:scrollbars="none">
+		<LinearLayout android:layout_height="wrap_content"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:id="@+id/MyProfAchTopLL">
+			<TextView android:id="@+id/MyProfAchTextView01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/descN" android:text="@string/MyProfAchTV1"
+				android:layout_marginTop="5dp" android:textSize="12sp"></TextView>
+			<TextView android:id="@+id/MyProfAchTextView02"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#ffffff" android:textSize="22sp" android:text="0"></TextView>
+			<TextView android:id="@+id/MyProfAchTextView03"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/descN" android:text="@string/MyProfAchTV2"
+				android:textSize="12sp" android:layout_marginTop="10dp"></TextView>
+			<TextView android:id="@+id/MyProfAchTextView04"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#ffffff" android:textSize="20sp" android:text="0"></TextView>
+			<TextView android:id="@+id/MyProfAchTextView05"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/descN" android:text="@string/MyProfAchTV3"
+				android:textSize="12sp" android:layout_marginTop="10dp"></TextView>
+
+			<com.riktamtech.android.ratethisstc.ui.components.RatingView
+				android:id="@+id/MyProfAchView01" android:layout_marginRight="12dp" 
+				android:layout_width="fill_parent"  android:layout_height="wrap_content" android:layout_marginTop="5dp"></com.riktamtech.android.ratethisstc.ui.components.RatingView>
+			<TextView android:id="@+id/MyProfAchTextView07"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/descN" android:text="@string/MyProfAchTV4"
+				android:textSize="12sp" android:layout_marginTop="10dp"></TextView>
+			<TextView android:id="@+id/MyProfAchTextView08"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#ffffff"
+				android:layout_marginTop="2dp" style="@style/StatusFont"></TextView>
+
+
+		</LinearLayout>
+	</ScrollView>
+	<include android:id="@+id/include01" layout="@layout/share_op"
+		android:layout_gravity="bottom" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></include>
+</FrameLayout>

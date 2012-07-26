@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Main!</string>
+	<string name="app_name">RateThis!</string>
+	<string name="bugsense_key">8a281e14</string>
+	<string-array name="main_menu">
+		<item>NewRate!</item>
+		<item>RateIt!</item>
+		<item>Rated!</item>
+		<item>Trending!</item>
+		<item>MyRates</item>
+		<item>MyProfile!</item>
+		<item>Settings</item>
+		<item>Help</item>
+	</string-array>
+	<string name="HelpTabsTV1">How to use the app</string>
+	<string name="HelpTabsTV2">About us</string>
+	<string name="SettingsTV1">Push notifications</string>
+	<string name="SettingsTV2">Auto share results on facebook/twitter</string>
+	<string name="SettingsTV3">Import photos from</string>
+	<string name="SettingsTV4">Set toggle rate buffering</string>
+	<string name="MyProfAchTV1">Total Rates!</string>
+	<string name="MyProfAchTV2">Total Rated!</string>
+	<string name="MyProfAchTV3">Winning Rate!</string>
+	<string name="MyProfAchTV4">Your Social Status!</string>
+	<string name="MyProfFormTV1">First name</string>
+	<string name="MyProfFormTV2">Last name</string>
+	<string name="MyProfFormTV3">Date of Birth</string>
+	<string name="MyProfFormTV4">Sex</string>
+	<string name="MyProfFormTV5">Country</string>
+	<string name="MyProfFormTV6">Email Address</string>
+	<string name="MyProfFormTV7">Password</string>
+	<string name="MyProfFormTV8">Confirm password</string>
+	<string name="MyProfTab1">Achievements</string>
+	<string name="MyProfTab2">MyInfo!</string>
+	<string-array name="SettingsImportSp">
+		<item>Both</item>
+		<item>Camera</item>
+		<item>Gallery</item>
+	</string-array>
+	<string-array name="MyProfArGender">
+		<item>Male</item>
+		<item>Female</item>
+	</string-array>
+	<string name="RatedDetailsTV1">Primary Tag</string>
+	<string name="RatedDetailsTV3">Date Posted</string>
+	<string name="RatedRates">rates</string>
+	<string name="RatedRate">rate</string>
+
+	<string name="NewRateBoxesTitleTV">Tap on the boxes to insert images</string>
+	<string name="NewRateFormTV1">Primary Tag</string>
+	<string name="NewRateFormTV1DefText">Select Primary Tag</string>
+	<string name="NewRateFormTV2">Custom tag</string>
+	<string name="NewRateFormTV3">Raters Age Group</string>
+	<string name="NewRateFormTV4">Raters Location</string>
+	<string name="NewRateFormTV5">Rating Time Lasts For</string>
+	<string-array name="NewRateFormPrimaryTagSp">
+		<item>Animals</item>
+		<item>Art</item>
+		<item>Boats</item>
+		<item>Books</item>
+		<item>Cars</item>
+		<item>Drinks</item>
+		<item>Education</item>
+		<item>Entertainment</item>
+		<item>Fashion</item>
+		<item>Film</item>
+		<item>Food</item>
+		<item>Games</item>
+		<item>Gifts</item>
+		<item>Homes</item>
+		<item>Motorcycles</item>
+		<item>Music</item>
+		<item>Nature</item>
+		<item>News</item>
+		<item>Nightlife</item>
+		<item>People</item>
+		<item>Photography</item>
+		<item>Politics</item>
+		<item>Recreation</item>
+		<item>Restaurants</item>
+		<item>Shopping</item>
+		<item>Sports</item>
+		<item>Technology</item>
+		<item>Television</item>
+		<item>Travel</item>
+	</string-array>
+	<string-array name="NewRateFormVotersAgeSp">
+		<item>All</item>
+		<item>Below 18</item>
+		<item>Above 18</item>
+		<item>18-24</item>
+		<item>25-34</item>
+		<item>35+</item>
+	</string-array>
+	<string-array name="NewRateFormVotersLocationCategoriesSp">
+		<item>Everyone</item>
+		<item>Within radius</item>
+		<item>Country</item>
+	</string-array>
+	<string-array name="NewRateFormVotersLocationRadiusSp">
+		<item>5</item>
+		<item>10</item>
+		<item>20</item>
+		<item>50</item>
+		<item>100</item>
+		<item>500</item>
+		<item>1000</item>
+	</string-array>
+	<string-array name="NewRateFormVotersLocationRadiusKMSp">
+		<item>Kms</item>
+		<item>Miles</item>
+	</string-array>
+	<string-array name="NewRateFormVotersLocationCountry">
+		<item>United States</item>
+		<item>Australia</item>
+		<item>Brazil</item>
+		<item>Canada</item>
+		<item>Chile</item>
+		<item>China</item>
+		<item>France</item>
+		<item>Germany</item>
+		<item>Greece</item>
+		<item>India</item>
+		<item>Italy</item>
+		<item>Japan</item>
+		<item>Spain</item>
+		<item>Mexico</item>
+		<item>Netherlands</item>
+		<item>New Zealand</item>
+		<item>Portugal</item>
+		<item>Russia</item>
+		<item>Singapore</item>
+		<item>South Korea</item>
+		<item>Sweden</item>
+		<item>Switzerland</item>
+		<item>Thailand</item>
+		<item>Turkey</item>
+		<item>United Kingdom</item>
+	</string-array>
+	<string-array name="NewRateFormVotingTime">
+		<item>10 minutes</item>
+		<item>30 minutes</item>
+		<item>1 hour</item>
+		<item>2 hours</item>
+		<item>4 hours</item>
+		<item>8 hours</item>
+		<item>1 day</item>
+		<item>2 days</item>
+		<item>1 week</item>
+		<item>1 year</item>
+		<item> 1 month></item>
+	</string-array>
+
+	<string name="STTV1">Push notifications</string>
+	<string name="STTV2">Auto share results on Facebook</string>
+	<string name="STTV3">Auto share results on Twitter</string>
+	<string name="STTV4">Prioritization of Rates </string>
+	<string name="STTV5">Allow background loading of Rates on 3G/Edge
+	</string>
+	<string name="STTV6">Default selection for location</string>
+	<string name="STTV7">Default selection for rating duration</string>
+	<string name="STTV8">Default selection for raters age group</string>
+	<string-array name="STSp1">
+		<item>Prioritize Rates expiring soon</item>
+		<item>Rate in chronological order</item>
+
+	</string-array>
+
+	<string name="LoginTV2">Password</string>
+	<string name="LoginTV3">Forgot Password?\n Click Here</string>
+	<string name="LoginTV4">New User?</string>
+
+	<string name="forgotPsswrd">Password sent to the registered mail</string>
+	<string name="SignupFormUsernameTV">Username</string>
+
+	<dimen name="titleSize">90dp</dimen>
+
+	<string name="TV_TW_LOGIN">Enter your twitter login details in the above
+		fields
+	</string>
+
+	<string name="NewRateFormLabelPictureA">Picture A</string>
+
+	<string name="NewRateFormLabelPictureB">Picture B</string>
+
+</resources>
+

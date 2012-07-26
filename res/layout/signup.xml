@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/SignupFormLinearLayout01"
+	xmlns:myattr="http://schemas.android.com/apk/res/com.riktamtech.android.ratethisstc"
+	android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_height="fill_parent">
+	<include layout="@layout/title_comp" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/TitleComp" />
+
+	<ScrollView android:id="@+id/SignupFormScrollView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_weight="0.8" android:scrollbars="none">
+		<RelativeLayout android:id="@+id/SignupFormRelativeLayout01"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingLeft="10dp" android:paddingRight="10dp">
+			<TextView android:id="@+id/SignupFormTextView01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/descN" android:text="@string/MyProfFormTV1"
+				android:layout_marginTop="5dp"></TextView>
+			<EditText android:id="@+id/SignupFormEditText01"
+				android:layout_below="@id/SignupFormTextView01"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:textColor="#ffffff" android:imeOptions="actionNext"
+				android:background="@color/tvBg" android:paddingLeft="2dp"></EditText>
+			<TextView android:id="@+id/SignupFormTextView02"
+				android:layout_below="@id/SignupFormEditText01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/descN" android:text="@string/MyProfFormTV2"
+				android:layout_marginTop="5dp"></TextView>
+			<EditText android:id="@+id/SignupFormEditText02"
+				android:layout_below="@id/SignupFormTextView02"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:textColor="#ffffff" android:imeOptions="actionNext"
+				android:background="@color/tvBg" android:paddingLeft="2dp"></EditText>
+			<TextView android:id="@+id/SignupFormTextView03"
+				android:layout_below="@id/SignupFormEditText02"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/descN" android:text="@string/MyProfFormTV3"
+				android:layout_marginTop="5dp"></TextView>
+			<TextView android:layout_height="wrap_content" android:layout_below="@id/SignupFormTextView03"
+				android:id="@+id/SignupFormTextView001" android:textColor="#FFFFFF" android:background="@color/tvBg" android:text="     " android:drawableRight="@drawable/down_arow" android:width="120dp" android:layout_marginTop="1dp" android:layout_width="135dp" android:paddingBottom="2dp" android:paddingLeft="2dp" android:paddingTop="2dp" android:paddingRight="8dp"></TextView>
+			<TextView android:id="@+id/SignupFormTextView04"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_below="@id/SignupFormEditText02" android:textColor="@color/descN"
+				android:text="@string/MyProfFormTV4"
+				android:layout_alignParentRight="false" android:layout_marginTop="5dp"
+				android:layout_toRightOf="@id/SignupFormTextView001"
+				android:layout_marginLeft="32dp"></TextView>
+			<com.riktamtech.android.ratethisstc.ui.components.CustDropDown
+				android:id="@+id/SignupFormTextView101" android:layout_below="@id/SignupFormTextView04"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_alignParentRight="true" android:layout_toRightOf="@+id/SignupFormTextView001"
+				android:layout_marginLeft="32dp"></com.riktamtech.android.ratethisstc.ui.components.CustDropDown>
+			<TextView android:id="@+id/SignupFormTextView05"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_below="@id/SignupFormTextView001" android:textColor="@color/descN"
+				android:text="@string/MyProfFormTV5" android:layout_marginTop="5dp"></TextView>
+
+			<com.riktamtech.android.ratethisstc.ui.components.CustDropDown
+				android:layout_height="wrap_content" android:background="@drawable/combo"
+				android:layout_below="@id/SignupFormTextView05" android:id="@+id/SignupFormTextView103"
+				android:layout_width="fill_parent"></com.riktamtech.android.ratethisstc.ui.components.CustDropDown>
+			<TextView android:id="@+id/SignupFormTextView06"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/descN" android:text="@string/MyProfFormTV6"
+				android:layout_marginTop="5dp" android:layout_below="@id/SignupFormTextView103"></TextView>
+			<EditText android:id="@+id/SignupFormEditText04"
+				android:layout_below="@id/SignupFormTextView06"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:textColor="#ffffff" android:imeOptions="actionNext"
+				android:background="@color/tvBg" android:inputType="textEmailAddress"
+				android:paddingLeft="2dp"></EditText>
+			<TextView android:id="@+id/SignupFormTextView1001"
+				android:layout_below="@id/SignupFormEditText04"
+				android:layout_height="wrap_content" android:text="@string/SignupFormUsernameTV"
+				android:layout_width="fill_parent" android:textColor="@color/descN" android:layout_marginTop="5dp"></TextView>
+			<EditText android:id="@+id/SignupFormEditText1001"
+				android:layout_below="@id/SignupFormTextView1001"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:background="@color/tvBg" android:textColor="#ffffff" android:imeOptions="actionNext"></EditText>
+			<TextView android:id="@+id/SignupFormTextView07"
+				android:layout_below="@id/SignupFormEditText1001"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/descN" android:text="@string/MyProfFormTV7"
+				android:layout_marginTop="5dp"></TextView>
+			<EditText android:id="@+id/SignupFormEditText05"
+				android:layout_below="@id/SignupFormTextView07"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:textColor="#ffffff" android:imeOptions="actionNext"
+				android:background="@color/tvBg" android:inputType="textPassword"
+				android:paddingLeft="2dp"></EditText>
+			<TextView android:id="@+id/SignupFormTextView08"
+				android:layout_below="@id/SignupFormEditText05"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/descN" android:text="@string/MyProfFormTV8"
+				android:layout_marginTop="5dp"></TextView>
+			<EditText android:id="@+id/SignupFormEditText06"
+				android:layout_below="@id/SignupFormTextView08"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:textColor="#ffffff" android:background="@color/tvBg"
+				android:inputType="textPassword" android:paddingLeft="2dp"
+				android:imeOptions="actionDone"></EditText>
+
+			<RelativeLayout android:id="@+id/SignupFormRelativeLayout02"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:paddingTop="5dp" android:layout_weight="0"
+				android:layout_below="@+id/SignupFormEditText06"
+				android:layout_marginTop="8dp">
+				<Button android:id="@+id/SignupFormButton01"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/create" android:layout_centerInParent="true"></Button>
+				
+			</RelativeLayout>
+	</RelativeLayout>
+	</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<color name="titleN">#6D6B69</color>
+<color name="descN">#9E9E9E</color>
+<color name="tvBg">#403F3E</color>
+<color name="tvD">#7F7F7F</color>
+<color name="redColor">#AE001E</color>
+<color name="greenColor">#58D117</color>
+<color name="blueColor">#0E79FF</color>
+<color name="orangeColor">#FF8000</color>
+</resources>
