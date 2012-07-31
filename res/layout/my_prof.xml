@@ -1,26 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_height="fill_parent"
-	android:layout_width="fill_parent" android:orientation="vertical" android:id="@+id/MyProfTopLL">
-	<include layout="@layout/title_comp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/TitleComp"/>
+    android:id="@+id/MyProfTopLL"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
 
-	<LinearLayout android:layout_width="fill_parent"
-		android:orientation="vertical" android:id="@+id/MyProfContainer" android:layout_height="fill_parent" android:paddingLeft="5dp" android:paddingRight="5dp">
+    <include
+        android:id="@+id/TitleComp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_comp" />
 
-		<LinearLayout android:id="@+id/MyProfLinearLayout01"
-			android:layout_height="wrap_content" android:layout_width="fill_parent">
-			<TextView android:layout_width="wrap_content"
-				android:layout_height="wrap_content" android:layout_marginRight="10dp"
-				android:text="@string/MyProfTab1" android:textColor="#ffffff"
-				android:textStyle="bold" android:id="@+id/MyProfTabTextView01" style="@style/tabsfont"></TextView>
-			<TextView android:layout_height="wrap_content" android:id="@+id/MyProfTabTextView02" android:text="@string/MyProfTab2" android:layout_width="wrap_content" android:textColor="@color/descN" style="@style/tabsfont"></TextView>
-		</LinearLayout>
-		<ViewFlipper android:id="@+id/MyProfViewFlipper01"
-			android:layout_width="fill_parent" android:layout_height="fill_parent">
-			<include layout="@layout/my_prof_ach" android:layout_width="fill_parent"
-				android:id="@+id/MyProfMyProfAch" android:layout_height="fill_parent"></include>
-			<include layout="@layout/my_prof_form" android:layout_width="fill_parent"
-				android:layout_height="wrap_content" android:id="@+id/MyProfMyProfForm"></include>
-		</ViewFlipper>
-	</LinearLayout>
+    <LinearLayout
+        android:id="@+id/MyProfContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <LinearLayout
+            android:id="@+id/MyProfLinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/MyProfTabTextView01"
+                style="@style/tabsfont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="@string/MyProfTab1"
+                android:textColor="#ffffff"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/MyProfTabTextView02"
+                style="@style/tabsfont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/MyProfTab2"
+                android:textColor="@color/descN" >
+            </TextView>
+        </LinearLayout>
+
+        <ViewFlipper
+            android:id="@+id/MyProfViewFlipper01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <include
+                android:id="@+id/MyProfMyProfAch"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                layout="@layout/my_prof_ach" >
+            </include>
+
+            <include
+                android:id="@+id/MyProfMyProfForm"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/my_prof_form" >
+            </include>
+        </ViewFlipper>
+    </LinearLayout>
+
 </LinearLayout>
